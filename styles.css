@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(126, 175, 167);
+}
+
+.myheader {
+    background-color: rgb(236, 122, 122);
+    color: rgb(35, 36, 32);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.per {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list {
+    display: flex;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.simon {
+    color: rgb(35, 36, 32);
+    align-items: center;
+    display: flex;
+    justify-content: center;  
+}
+
+.myfooter {
+    color: rgb(242, 255, 67);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
