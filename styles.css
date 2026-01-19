@@ -22,14 +22,7 @@ body{
     align-items: center;
 
 }
-.eldenring img {
-    height: 200px;
-    width: auto;
-    display: flex;
-    margin: auto;
-    padding: auto;     
-    align-self: left center;
-}
+
 
 .list {
     height: 30vh;
@@ -43,6 +36,60 @@ body{
     line-height: 50px;
 }
 
-.eldenring img {
-    height: 200px;
+.myfooter {
+    color: rgb(235, 194, 12);
+}
+
+section#gallery {
+    display: grid;
+    max-width: 80%;
+    margin-inline: auto;
+    grid-template-columns: repeat(9, minmax(50px, 1fr));
+    grid-template-rows: repeat(3, 200px);
+    gap: 8px;
+
+    grid-template-areas:
+    "one one one one one one one one one"
+    "two two two four four four five five five"
+    "six six six six six six six six six";
+}
+
+section#gallery div.eldenring {
+    background-image: url(./eldenring.jpg);
+    background-size: 346px 200px;
+    background-position: 50% 40%;
+    grid-area: one;
+    border: 8px solid black;
+}
+
+section#gallery div.sly{
+    background-image: url(./sly.jpg);
+    background-size: 166px 200px;
+    background-position: 50% 50%;
+    grid-area: four;
+    border: 8px solid black;
+}
+
+section#gallery div.rdr2{
+    background-image: url(./rdr2.jpg);
+    background-size: 166px 200px;
+    background-position: 50% 50%;
+    grid-area: two;
+    border: 8px solid black;
+}
+
+section#gallery div.minecraft{
+    background-image: url(./minecraft.jpg);
+    background-size: 166px 200px;
+    background-position: 50% 50%;
+    grid-area: five;
+    border: 8px solid black;
+}
+
+section#gallery div.bo3{
+    background-image: url(./bo3.jpg);
+    background-size: 346px 200px;
+    background-position: 50% 50%;
+    grid-area: six;
+    border: 8px solid black;
 }
